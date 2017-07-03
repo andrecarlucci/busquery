@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26621.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusQuery", "BusQuery\BusQuery.csproj", "{0790E779-694D-44BA-9566-B1E0C9707A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusQuery", "BusQuery\BusQuery.csproj", "{0790E779-694D-44BA-9566-B1E0C9707A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusQueryFunction", "BusQueryFunction\BusQueryFunction.csproj", "{B9FCF844-E768-4A12-961B-4057EB704318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{0790E779-694D-44BA-9566-B1E0C9707A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0790E779-694D-44BA-9566-B1E0C9707A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0790E779-694D-44BA-9566-B1E0C9707A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FCF844-E768-4A12-961B-4057EB704318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FCF844-E768-4A12-961B-4057EB704318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FCF844-E768-4A12-961B-4057EB704318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FCF844-E768-4A12-961B-4057EB704318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21A57E32-A8F8-47D2-9FE3-C9AD6D2F98D7}
 	EndGlobalSection
 EndGlobal
